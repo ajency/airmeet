@@ -1,0 +1,5 @@
+baseURL = "https://ajency.github.io/airmeet/"
+languageCode = "en-us"
+title = "Airmeet"
+theme = "airmeet"
+publishDir = "docs"

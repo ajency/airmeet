@@ -1,0 +1,16 @@
+$primary: theme-color("primary");
+// $secondary: #f88379;
+// $black: #2f2f41;
+// $white: #ffffff;
+// $steel: rgb(92, 90, 90);
+// $ghost: #f4f5fb;
+
+// // Links
+$link-color: theme-color("primary");
+// $link-decoration: none;
+$link-hover-color: lighten(theme-color("primary"), 20%);
+// $link-hover-decoration: underline;
+
+// Fonts
+$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
+$font-family-heading: 'DM Serif Display', serif, -apple-system;
