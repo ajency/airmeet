@@ -50,6 +50,21 @@ body {
 .h-30{
   height: 30vh;
 }
+.aspect169{
+  padding-top: 56.25%;
+  position: relative;
+}
+.aspect43{
+  padding-top: 75%;
+  position: relative;
+}
+.box-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 .signup-holder{
   width: 100%;
