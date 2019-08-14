@@ -9205,11 +9205,24 @@ nav {
   background: #333;
   overflow: hidden;
   z-index: 10; }
-  nav:hover {
-    width: 150px; }
-    nav:hover ul li span {
+  nav .fa-times {
+    display: none; }
+  nav.open {
+    width: 180px; }
+    nav.open .fa-bars {
+      display: none; }
+    nav.open .fa-times {
+      display: block; }
+    nav.open ul li span {
       visibility: visible;
       opacity: 1; }
+  nav .toggle-nav {
+    padding: 10px;
+    color: #fff;
+    display: block;
+    cursor: pointer; }
+    nav .toggle-nav .fa {
+      font-size: 1.4rem; }
   nav ul {
     list-style: none;
     padding: 0;

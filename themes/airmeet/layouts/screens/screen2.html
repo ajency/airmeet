@@ -1,12 +1,5 @@
 {{ define "main" }}
-	<nav role='navigation'>
-	  <ul>    
-	    <li><a href="#"><i class="fa fa-home fa-fw"></i> <span>Home</span></a></li>
-	    <li><a href="#"><i class="fa fa-microphone fa-fw"></i> <span>Microphone</span></a></li>
-	    <li><a href="#"><i class="fa fa-video-camera fa-fw"></i> <span>Video</span></a></li>
-	    <li><a href="#"><i class="fa fa-comment fa-fw"></i> <span>Chat</span></a></li>
-	  </ul>
-	</nav>
+	{{- partial "nav.html" . -}}
 
 	<div class="d-md-flex h-vh-100 align-items-center mainWrapper">
 
@@ -40,12 +33,38 @@
 				
 			</div>
 		</div>
-		<div class="col-4 p-3 h-vh-100">
-			<div class="card flex-row flex-wrap h-100  justify-content-center bg-dark">
-				<div class="card col-6 m-2 align-items-center justify-content-center">Table Member 1</div>
-				<div class="card col-6 m-2 align-items-center justify-content-center">Table Member 2</div>
-				<div class="card col-6 m-2 align-items-center justify-content-center">Table Member 3</div>
-				<div class="card col-6 m-2 align-items-center justify-content-center">Table Member 4</div>
+		<div class="col-4 py-3 pr-0 h-vh-100">
+			<!-- <div class="card flex-row flex-wrap h-100  justify-content-end bg-dark">
+				<div class="card col-6 ml-2 align-items-center justify-content-center">Table Member 1</div>
+				<div class="card col-6 ml-2 align-items-center justify-content-center">Table Member 2</div>
+				<div class="card col-6 ml-2 align-items-center justify-content-center">Table Member 3</div>
+				<div class="card col-6 ml-2 align-items-center justify-content-center">Table Member 4</div>
+			</div> -->
+
+			<div class="card flex-row flex-wrap h-100 align-items-center justify-content-end bg-dark">
+				<div class="d-flex flex-wrap justify-content-end">
+					<div class="col-6 ml-2 pr-0 align-items-center justify-content-center">
+						<div class="card text-center"  style="padding-top: 56.25%">
+							Table Member 1
+						</div>
+					</div>
+					<div class="col-6 ml-2 pr-0 align-items-center justify-content-center">
+						<div class="card text-center"  style="padding-top: 56.25%">
+							Table Member 2
+						</div>
+					</div>
+					<div class="col-6 ml-2 pr-0 align-items-center justify-content-center">
+						<div class="card text-center"  style="padding-top: 56.25%">
+							Table Member 3
+						</div>
+					</div>
+					<div class="col-6 ml-2 pr-0 align-items-center justify-content-center">
+						<div class="card text-center"  style="padding-top: 56.25%">
+							Table Member 4
+						</div>
+					</div>
+				</div>
+				
 			</div>
 		</div>
 	</div>

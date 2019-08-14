@@ -1,12 +1,6 @@
 {{ define "main" }}
-	<nav role='navigation'>
-	  <ul>    
-	    <li><a href="#"><i class="fa fa-home fa-fw"></i> <span>Home</span></a></li>
-	    <li><a href="#"><i class="fa fa-microphone fa-fw"></i> <span>Microphone</span></a></li>
-	    <li><a href="#"><i class="fa fa-video-camera fa-fw"></i> <span>Video</span></a></li>
-	    <li><a href="#"><i class="fa fa-comment fa-fw"></i> <span>Chat</span></a></li>
-	  </ul>
-	</nav>
+
+	{{- partial "nav.html" . -}}
 
 	<div class="d-md-flex h-vh-100 align-items-center mainWrapper">
 
@@ -40,7 +34,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-6 p-3 h-vh-100">
+		<div class="col-6 py-3 pr-0 h-vh-100">
 			<div class="card flex-row flex-wrap h-100 align-items-center justify-content-center bg-dark">
 				<div class="d-flex flex-wrap">
 					<div class="col-6 mb-2 align-items-center justify-content-center">
