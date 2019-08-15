@@ -9315,6 +9315,17 @@ body {
   right: 0;
   top: 10px; }
 
+.actions-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 25%;
+  text-align: center;
+  border: 1px solid #b1b1b1;
+  border-bottom: 0; }
+
 .speakers-holder {
   position: absolute;
   width: 100%;
