@@ -29,26 +29,31 @@ body {
     line-height: 1.2;
   }
 }
-
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .mainWrapper{
   margin-left: 55px;
+  margin-top: 63px;
 }
 
 @media (min-width: 768px) {
-    .h-vh-100 { height: 100vh; }
+    .h-vh-100 { height: calc(100vh - 63px); }
 }
 
 .h-100{
   height: 100%;
 }
 .h-70{
-  height: 70vh;
+  height: calc(70vh - 63px);
 }
 .h-50{
-  height: 50vh;
+  height: calc(50vh - 63px);
 }
 .h-30{
-  height: 30vh;
+  height: calc(30vh - 63px);
 }
 .aspect169{
   padding-top: 56.25%;
@@ -64,6 +69,17 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.speakers-holder{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: -50px;
+  display: flex;
+}
+.audience-list{
+  margin-top: calc(25% - 50px);
 }
 
 .signup-holder{
