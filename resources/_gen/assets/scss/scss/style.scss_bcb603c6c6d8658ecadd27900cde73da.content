@@ -9321,7 +9321,7 @@ body {
   left: 0;
   right: 0;
   margin: auto;
-  width: 25%;
+  width: 200px;
   text-align: center;
   border: 1px solid #b1b1b1;
   border-bottom: 0; }
